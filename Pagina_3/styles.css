@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Dosis:wght@200;500;700;800&family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Nunito:wght@200&family=Open+Sans:wght@300;400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,700;1,300&family=Space+Mono:wght@400;700&family=Urbanist:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    outline-color: transparent; 
+    outline-style: none;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    z-index: 1000;
+}
+
+header .logo {
+    position: relative;
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+header .logo span {
+    color: #37d72f;
+    
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: #111;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
